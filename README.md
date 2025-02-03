@@ -1,6 +1,6 @@
 # Student Performance Prediction
 
-This project aims to predict student performance based on various factors using machine learning models. It provides a comprehensive solution for data ingestion, transformation, model training, and prediction through well-structured components and pipelines.
+This project aims to provide an entire End-to-end ML project and predict student performance based on various factors using machine learning models. It provides a comprehensive solution for data ingestion, transformation, model training, and prediction through well-structured components and pipelines.
 
 ![alt text](image.png) ![alt text](image-1.png)
 
@@ -23,7 +23,7 @@ Predicting student performance is crucial for educational institutions to identi
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Student-Performance-Prediction.git]
+   git clone https://github.com/aniket-1177/Student-Performance-Prediction-ML.git
 
 2. Create a virtual environment (recommended):
 
