@@ -16,6 +16,7 @@ Predicting student performance is crucial for educational institutions to identi
 - **Data Transformation:**  Performs data cleaning, preprocessing, and feature engineering using `data_transformation.py`.
 - **Model Training:**  Trains machine learning models using `model_trainer.py` with configurable hyperparameters.
 - **Prediction Pipeline:**  Provides a streamlined pipeline for making predictions on new data using `predict_pipeline.py`.
+- **Training Pipeline:**  Orchestrates the entire training process, including data ingestion, transformation, and model training using `train_pipeline.py`.
 - **Modular Design:**  Organized into reusable components and pipelines for easy maintenance and extension.
 - **Logging and Exception Handling:**  Implements robust logging and exception handling for better monitoring and debugging.
 
@@ -36,6 +37,11 @@ Predicting student performance is crucial for educational institutions to identi
    ```bash
    pip install -r requirements.txt
 
-4. Run the flask application:
+4. To ingest data, preprocess the data and train the model:
+
+   ```bash
+   python src/pipeline/train_pipeline.py
+
+4. Run predictions from the flask application:
    ```bash
    python app.py
